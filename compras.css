@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,700;1,200;1,300;1,500&display=swap');;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,200;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,700;1,200;1,300;1,500&display=swap');
+
+
+
+* {
+    margin: 0; /* anula 0 para margem*/
+    padding: 0; /*anula 0 para padding*/
+}
+
+body {
+        height: 100vh; /* defini dizer que a pagina sera usada 100%*/
+        box-sizing: border-box; /* defini que as imagens nao ultrapassaram os limites*/
+        background-color: #1d4393;/* defini que o fundo sera azul*/
+}   
+
+.box__titulo {
+    margin: -8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.titulo {
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+   
+}
+.titulo2 {
+    display: flex;
+    justify-content: center;
+    margin: 0 16% 0 16%;
+}
+.titulo__compras {
+    font-size: 75px;
+    font-family: 'Krona One', sans-serif;
+    color: #3498db;
+    text-align: center;
+    margin-top: 13px;
+    animation: highlight 2s infinite alternate; /* aplica a animação*/
+}
+
+/* Definindo o keyframe da animação */
+@keyframes highlight {
+    from {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+    to {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+}
+.box__titulo2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.text__titulo2 {
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+
+}
+
+.img__sacolacompras {
+    height: 69vh;
+    margin: -2% 25% -6%;
+    animation: shakeImage 2s infinite;
+}
+
+@keyframes shakeImage {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25%, 75% {
+        transform: translateX(-10px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+}
+.posicao {
+
+    margin: 0 0 0 5%;
+}
+.foto__users {
+    
+    height: 55vh;
+}
+
+.box__user1{
+    display: flex;
+    align-items: center;
+    font-family:'DM Sans Bold', sans-serif;
+    color: white;
+}
+.name__user1 {
+
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 40px;
+}
+.cargo__user1  {
+
+    font-size: 20px;
+}
+.contato__user1 {
+    text-decoration: none;
+    color: ghostwhite;
+    font-size: 20px;
+}
+.fa-whatsapp {
+    
+    color: greenyellow;   
+}
+
+.box__user2{
+    display: flex;
+    align-items: center;
+    font-family:'DM Sans Bold', sans-serif;
+    color: white;
+}
+.name__user2 {
+
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 35px;
+}
+.cargo__user2{
+    font-size: 20px;
+}
+.contato__user2 {
+    text-decoration: none;
+    color: ghostwhite;
+    font-size: 20px;
+}
+.fa-whatsapp {
+    
+    color: greenyellow;   
+}
+.box__user3{
+    display: flex;
+    align-items: center;
+    font-family:'DM Sans Bold', sans-serif;
+    color: white;
+}
+.name__user3 {
+
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 34px;
+}
+.cargo__user3 {
+
+    font-size: 24px;
+}
+.contato__user3 {
+    text-decoration: none;
+    color: ghostwhite;
+}
+.fa-whatsapp {
+    
+    color: greenyellow;   
+}
+.box__user4{
+    display: flex;
+    align-items: center;
+    font-family:'DM Sans Bold', sans-serif;
+    color: white;
+}
+.name__user4 {
+
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 36px;
+}
+.cargo__user4 {
+
+    font-size: 26px;
+}
+.contato__user4b {
+    text-decoration: none;
+    color: ghostwhite;
+}
+.fa-whatsapp {
+    
+    color: greenyellow;   
+}
+.box__user5{
+    display: flex;
+    align-items: center;
+    font-family:'DM Sans Bold', sans-serif;
+    color: white;
+}
+.name__user5 {
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 36px;
+}
+.cargo__user5 {
+
+    font-size: 26px;
+}
+.contato__user5 {
+    text-decoration: none;
+    color: ghostwhite;
+}
+.fa-whatsapp {
+    color: greenyellow;   
+}
+.funcoes {
+    margin: 4% 0 0 18%;
+    opacity: 0;
+    transition: opacity 4s;
+    font-size: 40px;
+    
+}
+.visible {
+    opacity: 1;
+}
+.emails {
+   
+    color: aliceblue;
+}
+

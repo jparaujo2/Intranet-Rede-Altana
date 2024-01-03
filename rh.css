@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,700;1,200;1,300;1,500&display=swap');;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,200;1,300;1,400;1,500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+box-sizing: border-box;
+height: 100vh;
+background-color: #814197;
+
+}
+.box__titulo {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    margin: -8px;
+    padding: 15px;
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #2c3e50;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+     
+}
+.subtitulo {
+    font-size: 55px;
+    font-family: 'DM Sans Bold', sans-serif;
+    color: #814197;
+    text-align: center;
+    animation: highlight 2s infinite alternate;
+}
+@keyframes highlight {
+    from {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+    to {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+}
+
+.explicacao { 
+    font-family:'DM Sans Bold', sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin: 6% 16% 5% 15%;
+}
+.position__img {
+    display: flex;
+    justify-content: center;
+}
+.imagem img{
+    width: 55vh; 
+    animation: shakeImage 2s infinite;
+}
+@keyframes shakeImage {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25%, 75% {
+        transform: translateX(-10px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+}
+.posicao {
+
+    margin: 0 0 0 5%;
+}
+.foto__users {
+    
+    height: 55vh;
+}
+.emails {
+    text-decoration:none;
+    color: white;
+}
+
+.box__user1{
+    display: flex;
+    align-items: center;
+    font-family:'DM Sans Bold', sans-serif ;
+    color: white;
+}
+.name__user1 {
+
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 30px;
+}
+.cargo__user1  {
+
+    font-size: 24px;
+}
+.contato__user1 {
+    text-decoration: none;
+    color: ghostwhite;
+}
+.fa-whatsapp {
+    
+    color: greenyellow;   
+}
+.box__user2{
+    display: flex;
+    align-items: center;
+    font-family:'DM Sans Bold', sans-serif ;
+    color: white;
+}
+.name__user2 {
+
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 30px;
+}
+.cargo__user2  {
+
+    font-size: 24px;
+}
+.contato__user2 {
+    text-decoration: none;
+    color: ghostwhite;
+}
+.fa-whatsapp {
+    
+    color: greenyellow;   
+}
+
+.box__user3{
+    display: flex;
+    align-items: center;
+    font-family:'DM Sans Bold', sans-serif;
+    color: white;
+}
+.name__user3 {
+
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 30px;
+}
+.cargo__user3 {
+
+    font-size: 24px;
+}
+.contato__user3 {
+    text-decoration: none;
+    color: ghostwhite;
+}
+.fa-whatsapp {
+    
+    color: greenyellow;   
+}
+
+.box__user4{
+    display: flex;
+    align-items: center;
+    font-family:'DM Sans Bold', sans-serif ;
+    color: white;
+}
+.name__user4 {
+
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 30px;
+}
+.cargo__user4 {
+
+    font-size: 24px;
+}
+.contato__user4 {
+    text-decoration: none;
+    color: ghostwhite;
+}
+.fa-whatsapp {
+    
+    color: greenyellow;   
+}
+.box__user5{
+    display: flex;
+    align-items: center;
+    font-family:'DM Sans Bold', sans-serif ;
+    color: white;
+}
+.name__user5 {
+
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 30px;
+}
+.cargo__user5 {
+
+    font-size: 24px;
+}
+.contato__user5 {
+    text-decoration: none;
+    color: ghostwhite;
+}
+.fa-whatsapp {
+    
+    color: greenyellow;   
+}
+.box__user6{
+    display: flex;
+    align-items: center;
+    font-family:'DM Sans Bold', sans-serif ;
+    color: white;
+}
+.name__user6{
+
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 30px;
+}
+.cargo__user6{
+
+    font-size: 24px;
+}
+.contato__user6{
+    text-decoration: none;
+    color: ghostwhite;
+}
+.fa-whatsapp {
+    
+    color: greenyellow;   
+}
+.funcoes {
+    display: flex;
+    margin: 4% 0 0 20%;
+    font-size: 40px;
+    opacity: 0;
+    transition: opacity 3s;
+}
+.visible {
+    opacity: 7;
+}
+

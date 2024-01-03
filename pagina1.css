@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,700;1,200;1,300;1,500&display=swap');;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,200;1,300;1,400;1,500&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: #154194;
+    position: sticky;
+    top: 0;
+    z-index: 999;    
+}
+.logo__cabecalho{
+
+  height: 200px;
+
+}
+.link {
+display: flex;
+margin: 0 6% 2% 0 ;
+gap: 80px;
+
+
+
+}
+.link :hover{
+    color: #21b5af;
+    
+ }
+ .link-hidden {
+    display: none;
+}
+.scroll {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: 'DM Sans Bold', sans-serif;
+}
+
+body {
+
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+
+.box__text1 {
+    display: flex;
+    align-items: center;
+
+}
+
+.box__position1 {
+     display: flex;
+    align-items: center;
+    margin: -1% 3% -1% 10%;
+    justify-content: space-between;
+
+}
+.text1 {
+        font-family: 'DM Sans Bold', sans-serif;
+        font-size: 54px;
+        
+}
+.destaque1__text1 {
+color: #1d4393 ;
+
+}
+.destaque2__text1 {
+
+    color: #1d4393 ;
+}
+.paragrafo1 {
+
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 25px;
+}
+.img__logo {
+
+    height: 80vh;
+    
+}
+.box__titulo2 {
+ display: flex;
+ justify-content: center;
+ font-family:'Krona One', sans-serif; 
+ font-size: 23px;
+} 
+.destaque__titulo2{
+
+    color: #1d4393 ;
+}
+.box__botoes {
+
+    display: flex; 
+    justify-content: center;
+    justify-content: space-between;
+    margin: 4% 10% 9% ;
+   
+}
+.box__botoes :hover {
+
+    background-color: black;
+}
+
+.botao__rh {
+background-color:#1d4393;
+width: 200px;
+border-radius: 7px;
+text-align: center;
+padding: 4px;
+font-size: 22px;
+text-decoration: none;
+color: white;
+font-family:  'DM Sans Bold', sans-serif;;
+
+}
+.bota__ti {
+    background-color:#1d4393;
+    width: 200px;
+    border-radius: 7px;
+    text-align: center;
+    padding: 4px;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    font-family:  'DM Sans Bold', sans-serif;;
+}
+.botao__manu{
+        background-color:#1d4393 ;
+        width: 200px;
+        border-radius: 7px;
+        text-align: center;
+        padding: 4px;
+        font-size: 22px;
+        text-decoration: none;
+        color: white;
+        font-family:  'DM Sans Bold', sans-serif;;
+        
+ }
+.botao__compras {
+ background-color:#1d4393 ;
+ width: 200px;
+ border-radius: 7px;
+ text-align: center;
+ padding: 4px;
+ font-size: 22px;
+ text-decoration: none;
+ color: white;
+ font-family:  'DM Sans Bold', sans-serif;;
+            
+}
+
+.box__position2 {
+    display: flex;
+    align-items: center;
+    margin: 0% 11% 2% 12%;
+    justify-content: space-between;
+}
+
+.text2 {
+
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 60px;
+}
+.paragrafo2{
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 25px;
+}
+
+.destaque__titulo3 {
+
+    color:#1d4393 ;
+}
+main {
+    height: 100vh;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  span {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family:'Montserrat', sans-serif ;
+    animation: changeColor 10s linear infinite;
+    }
+
+    @keyframes changeColor {
+        0% { color: #21b5af; }
+        25% { color: rgb(240, 10, 201); }
+        50% { color: #21b5af; }
+        75% { color: rgb(240, 10, 201); }
+        100% { color: #21b5af; }
+    }
+  .img__carrossel {
+    box-shadow: 0 10px 2px #0003;
+    width: 100;
+  }
+  
+  .swiper {
+    height: 600px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media (max-width: 450px) {
+    .swiper {
+      height: 300px;
+    }
+  }
+  .box4 {
+    background-color: #154194;
+    margin-right: -8px;
+    margin-left: -8px;
+  }
+  .position__box4{
+    display: flex;
+    margin: 4% 5% -36px 5%;
+  }
+
+  .text3 {
+    color: white;
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 48px;
+  }
+  .paragrafo3 {
+    color: white;
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 29px;
+  }
+  .destaque__midia {
+    color: #21b5af;
+} 
+.destaque__insta {
+    color: rgb(238, 40, 139);
+}
+.destaque__face {
+    color: rgb(13, 87, 245);
+}
+
+.destaque__link{
+    color: aqua;
+}
+
+.img__redesocial {
+    max-width: 40%;
+    height: auto;
+}
+.box__botoes2 {
+    margin-top: 100px;
+    gap: 100px;
+    margin-bottom: 4%;
+}   
+
+.position__redes {
+
+ display: flex;
+ gap: 9%;
+
+}
+
+.insta {
+    color: white;
+    font-size: 22px;
+    font-family: 'DM Sans Bold', sans-serif;
+    background-color: #21b5af;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.face {
+    color: white;
+    font-size: 22px;
+    font-family: 'DM Sans Bold', sans-serif;
+    background-color: #21b5af;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+.linkedin {
+    color: white;
+    font-size: 22px;
+    font-family: 'DM Sans Bold', sans-serif;
+    background-color: #21b5af;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+.box5{
+    margin-left: 4%;
+}
+.titulo__integracao {
+    color: #154194;
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 40px;
+    margin: 6% 0 0 35%;
+    
+}
+
+.paragrafo__integracao {
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 29px;
+    margin: 2% 20% 3% 3%;
+}
+.botao__integracao{
+    text-decoration: none;
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 26px;
+    background-color: #154194;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+}
+.position_botao_integracao{
+
+   display: flex;
+   align-items: center;
+   justify-content:center;
+   gap: 6%;
+   
+}
+.foto.integracao1 {
+    width: 5%;
+    height: 3%;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+.foto.integracao1:hover {
+    transform: scale(1.1); /* Scale the image on hover */
+}
